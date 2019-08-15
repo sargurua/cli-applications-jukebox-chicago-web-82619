@@ -32,7 +32,7 @@ def play(songs)
     if input == song
       return puts "Playing <#{song}>"
     elsif input == (index + 1)
-      return puts "Playing <#{song}>
+      return puts "Playing <#{song}>"
     end
   end
   return puts "Invalid input, please try again"
